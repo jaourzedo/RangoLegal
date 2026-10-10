@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recipe_card" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp" android:clickable="true" android:focusable="true"
+    app:cardCornerRadius="22dp" app:cardElevation="0dp" app:strokeWidth="1dp"
+    app:strokeColor="@color/rango_border" app:cardBackgroundColor="@color/rango_surface">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <ImageView android:id="@+id/recipe_image" android:layout_width="match_parent" android:layout_height="170dp"
+            android:src="@drawable/recipe_omelet" android:scaleType="centerCrop" android:contentDescription="@string/omelet_title" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="18dp">
+            <TextView android:id="@+id/recipe_name" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/omelet_title" android:textAppearance="@style/RangoSection" android:textSize="21sp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginTop="10dp" android:gravity="center_vertical">
+                <TextView android:id="@+id/recipe_time" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="@string/omelet_time" android:textAppearance="@style/RangoCaption"
+                    android:drawableStart="@drawable/ic_time" android:drawablePadding="6dp" android:gravity="center_vertical" />
+                <TextView android:id="@+id/recipe_cost" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp" android:text="@string/omelet_cost" style="@style/RangoBadge" />
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:text="@string/view_recipe" android:textColor="@color/rango_green"
+                android:textSize="14sp" android:fontFamily="sans-serif-medium" android:drawableEnd="@drawable/ic_arrow"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

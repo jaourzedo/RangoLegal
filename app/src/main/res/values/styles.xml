@@ -1,0 +1,21 @@
+<resources>
+    <style name="RangoBody" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/rango_text</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+    <style name="RangoCaption" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/rango_muted</item>
+    </style>
+    <style name="RangoSection" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/rango_text</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="RangoBadge" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/rango_green</item>
+        <item name="android:background">@drawable/bg_badge</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+</resources>

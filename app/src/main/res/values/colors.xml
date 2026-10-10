@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="rango_green">#285943</color>
+    <color name="rango_green_light">#E6EEE5</color>
+    <color name="rango_cream">#FAF8F2</color>
+    <color name="rango_surface">#FFFFFF</color>
+    <color name="rango_text">#25372C</color>
+    <color name="rango_muted">#657066</color>
+    <color name="rango_border">#E4E7DD</color>
+    <color name="rango_terracotta">#995131</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
 </resources>
